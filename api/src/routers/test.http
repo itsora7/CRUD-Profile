@@ -1,0 +1,28 @@
+###get all users
+
+GET  http://localhost:8000/users
+
+###post all users
+
+POST   http://localhost:8000/users
+Content-Type: application/json
+
+{
+    "fName":"Ark",
+    "lName":"Shrestha",
+    "email":"Arks.com",
+    "password":"2134"
+}
+###put all users
+
+PUT   http://localhost:8000/users
+Content-Type: application/json
+
+{
+    "_id":"6393d2050d3fedc959c00e94",
+    "password":"21"
+}
+ 
+###Delete  users by ID
+
+DELETE    http://localhost:8000/users/6393d1430d3fedc959c00e8c

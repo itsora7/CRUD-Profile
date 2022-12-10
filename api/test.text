@@ -1,0 +1,16 @@
+# command in terminals
+touch test.js
+npm init -y
+npx create-react-app filename
+ls
+git init
+git add .
+git commit -m "message"
+$ npm i express morgan mongose cors  ==> to install all the files in one go
+
+$ echo "#api" > README.md ==> to add the file inside the folder
+
+npm run dev
+rs ==> restart terminals
+
+npm uninstall mongoose ==> to uninstall
